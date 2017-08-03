@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- Document responsive across devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Document's character set. -->
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+  </head>
+  <body>
+
+    <div class="header-container">
+      <header>
+      <h1>Hangman</br> #&nbsp; </h1> 
+      </header>
+    </div>
+
+    <div class="main-container">
+      <section id="GOT-panel">
+        <img id="GOT-image" src="assets/images/GOT.jpg" alt="GOT default image.">
+        <audio id="music" controls>
+          <source src="assets/images/GoTTheme.mp3">
+        </audio>
+      </section>
+      <section id="hangman-panel">
+        <p>
+          PRESS ANY KEY TO GET STARTED
+        </p>
+        <p>
+          WINS
+        </p>
+        <p id="win-count">
+        </p>
+        <p>
+          CURRENT WORD
+        </p>
+        <p id="word-placeholder">
+        </p>
+        <p>
+          NUMBER OF GUESSES REMAINING
+        </p>
+        <p id="guess-count">
+        </p>
+        <p>
+          LETTERS ALREADY GUESSED
+        </p>
+        <p id="letters-guessed">
+        </p>
+      </section>
+    </div>
+    <!-- Linking JavaScript-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>    
+  </body>
+</html>
